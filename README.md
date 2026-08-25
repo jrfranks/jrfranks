@@ -20,7 +20,7 @@ Right now I pair with [Grok](https://x.ai) on implementation, technical writing,
 ## Current public work
 
 - [MoistureController](https://github.com/jrfranks/MoistureController) — ultra-low-power AVR garden controller, fail-closed embedded C
-- [BatteryCharger](https://github.com/jrfranks/BatteryCharger) — Arduino charge controller for lead-acid, LiFePO4, and Li-ion
+- [BatteryManager](https://github.com/jrfranks/BatteryManager) — Arduino charge controller for lead-acid, LiFePO4, and Li-ion
 - [GardenOfElixir](https://github.com/jrfranks/GardenOfElixir) — Phoenix LiveView + ESP32 C + MQTT fleet monitor
 - [TDAmeritrade](https://github.com/jrfranks/TDAmeritrade) — Elixir REST/streaming client with a full mock test suite
 
