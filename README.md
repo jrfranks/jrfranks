@@ -4,7 +4,7 @@ I write the docs and ship the code for systems that have to stay up — APIs, fi
 
 I review and debug across the stack: assembler, C, embedded systems, Python, Rust, Elixir, Erlang, and the hardware under it. A lot of that time has been board bring-up, hardware debug, and project rescues.
 
-Right now I pair with [Grok](https://x.ai) on implementation, technical writing, and review. Faster drafts and patches. I still own architecture, review, and what ships.
+Right now I pair with [Grok](https://x.ai) on implementation, technical writing, and review. Faster drafts and patches. I still own architecture, algorithm selection, review, and what ships.
 
 **Svelte Software** · [sveltesoft.com](http://www.sveltesoft.com) · [Upwork](https://www.upwork.com/freelancers/~0156727d738367d231)
 
