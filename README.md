@@ -6,7 +6,7 @@ I review and debug across the stack: assembler, C, embedded systems, Python, Rus
 
 Right now I pair with [Grok](https://x.ai) on implementation, technical writing, and review. Faster drafts and patches. I still own architecture, algorithm selection, review, and what ships.
 
-**Svelte Software** · [sveltesoft.com](http://www.sveltesoft.com) · [Upwork](https://www.upwork.com/freelancers/~0156727d738367d231)
+**Svelte Software** · [sveltesoft.com](https://sveltesoft.com/)
 
 ## What I take
 
