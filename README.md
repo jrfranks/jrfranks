@@ -19,6 +19,7 @@ Right now I pair with [Grok](https://x.ai) on implementation, technical writing,
 
 ## Current public work
 
+- [ArkFS](https://github.com/jrfranks/ArkFS) — temporal never-delete FUSE filesystem (Rust + Elixir sim)
 - [MoistureController](https://github.com/jrfranks/MoistureController) — ultra-low-power AVR garden controller, fail-closed embedded C
 - [BatteryManager](https://github.com/jrfranks/BatteryManager) — Arduino charge controller for lead-acid, LiFePO4, and Li-ion
 - [GardenOfElixir](https://github.com/jrfranks/GardenOfElixir) — Phoenix LiveView + ESP32 C + MQTT fleet monitor
