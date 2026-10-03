@@ -1,28 +1,21 @@
 # John R. Franks
 
-I write the docs and ship the code for systems that have to stay up — APIs, firmware, boards, and distributed platforms.
+Kernel, filesystems, device drivers, and board bring-up. Contract and rescue work. US remote.
 
-I review and debug across the stack: assembler, C, embedded systems, Python, Rust, Elixir, Erlang, and the hardware under it. A lot of that time has been board bring-up, hardware debug, and project rescues.
-
-Right now I pair with [Grok](https://x.ai) on implementation, technical writing, and review. Faster drafts and patches. I still own architecture, algorithm selection, review, and what ships.
-
-**Svelte Software** · [sveltesoft.com](https://sveltesoft.com/)
+I have shipped storage and firmware that had to stay up: filesystem and on-disk layout, distributed object storage, RAID and disk-controller firmware, SCSI, USB, disk and network drivers, and board bring-up. Patent [US 8,793,527](https://patents.google.com/patent/US8793527B1) covers distributed storage clusters. Public work is userspace and firmware. The kernel and driver record is the employment history, not a GitHub repo.
 
 ## What I take
 
-- Developer-facing technical writing and API docs
-- API conformance testing and API development
-- Code review and debug — assembler through Python, Rust, Elixir, Erlang, and embedded C
-- Board bring-up, hardware debug, and project rescues
-- Python automation and hardware/data parsers
-- Elixir/Phoenix backends
+- Filesystems, block layout, and storage control planes
+- Device drivers and kernel debugging in C
+- Board bring-up, boot firmware, and hardware debug
+- Embedded firmware: AVR, Arduino, ESP32, Nerves
+- Conformance and failure-mode tests for the above
 
-## Current public work
+## Public work
 
-- [ArkFS](https://github.com/jrfranks/ArkFS) — temporal never-delete FUSE filesystem (Rust + Elixir sim)
-- [MoistureController](https://github.com/jrfranks/MoistureController) — ultra-low-power AVR garden controller, fail-closed embedded C
-- [BatteryManager](https://github.com/jrfranks/BatteryManager) — Arduino charge controller for lead-acid, LiFePO4, and Li-ion
-- [GardenOfElixir](https://github.com/jrfranks/GardenOfElixir) — Phoenix LiveView + ESP32 C + MQTT fleet monitor
-- [TDAmeritrade](https://github.com/jrfranks/TDAmeritrade) — Elixir REST/streaming client with a full mock test suite
+- [ArkFS](https://github.com/jrfranks/ArkFS) — never-delete temporal FUSE filesystem in Rust, with an Elixir simulation harness and POSIX/FUSE conformance tests. Userspace, not an in-kernel filesystem.
+- [MoistureController](https://github.com/jrfranks/MoistureController) — fail-closed AVR irrigation controller. Sleep-current budget, alarm wake, power-gated sensing, CRC EEPROM. Active tree is `firmware/avr-ultra/`.
+- [BatteryManager](https://github.com/jrfranks/BatteryManager) — Arduino charge controller for lead-acid, LiFePO4, and Li-ion.
 
-I work independently. Clear comms. Accurate delivery.
+Independent. I own architecture, review, and what ships.
